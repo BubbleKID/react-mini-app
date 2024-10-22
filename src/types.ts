@@ -4,5 +4,6 @@ export type ImageType = {
   width: number
   height: number
   url: string
-  download_url: string
+  download_url: string,
+  containerRef: React.RefObject<HTMLDivElement>
 }
